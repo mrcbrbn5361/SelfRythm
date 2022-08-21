@@ -3,6 +3,7 @@ const client = new Discord.Client();
 const fs = require('fs');
 const Enmap = require('enmap');
 const utils = require('./utils');
+const keep_alive = require('./keep_alive.js')
 
 if (!process.env.TOKEN){
   try{
